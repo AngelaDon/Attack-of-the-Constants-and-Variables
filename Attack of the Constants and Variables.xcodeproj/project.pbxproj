@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D592770F1BCC26EC00DB8477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592770E1BCC26EC00DB8477 /* AppDelegate.swift */; };
+		D59277111BCC26EC00DB8477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59277101BCC26EC00DB8477 /* ViewController.swift */; };
+		D59277141BCC26EC00DB8477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59277121BCC26EC00DB8477 /* Main.storyboard */; };
+		D59277161BCC26EC00DB8477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59277151BCC26EC00DB8477 /* Assets.xcassets */; };
+		D59277191BCC26EC00DB8477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59277171BCC26EC00DB8477 /* LaunchScreen.storyboard */; };
+		D59277241BCC26EC00DB8477 /* Attack_of_the_Constants_and_VariablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59277231BCC26EC00DB8477 /* Attack_of_the_Constants_and_VariablesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59277201BCC26EC00DB8477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59277031BCC26EC00DB8477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D592770A1BCC26EC00DB8477;
+			remoteInfo = "Attack of the Constants and Variables";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D592770B1BCC26EC00DB8477 /* Attack of the Constants and Variables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attack of the Constants and Variables.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D592770E1BCC26EC00DB8477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D59277101BCC26EC00DB8477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D59277131BCC26EC00DB8477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59277151BCC26EC00DB8477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59277181BCC26EC00DB8477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D592771A1BCC26EC00DB8477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D592771F1BCC26EC00DB8477 /* Attack of the Constants and VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attack of the Constants and VariablesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59277231BCC26EC00DB8477 /* Attack_of_the_Constants_and_VariablesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attack_of_the_Constants_and_VariablesTests.swift; sourceTree = "<group>"; };
+		D59277251BCC26EC00DB8477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59277081BCC26EC00DB8477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D592771C1BCC26EC00DB8477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59277021BCC26EC00DB8477 = {
+			isa = PBXGroup;
+			children = (
+				D592770D1BCC26EC00DB8477 /* Attack of the Constants and Variables */,
+				D59277221BCC26EC00DB8477 /* Attack of the Constants and VariablesTests */,
+				D592770C1BCC26EC00DB8477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D592770C1BCC26EC00DB8477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D592770B1BCC26EC00DB8477 /* Attack of the Constants and Variables.app */,
+				D592771F1BCC26EC00DB8477 /* Attack of the Constants and VariablesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D592770D1BCC26EC00DB8477 /* Attack of the Constants and Variables */ = {
+			isa = PBXGroup;
+			children = (
+				D592770E1BCC26EC00DB8477 /* AppDelegate.swift */,
+				D59277101BCC26EC00DB8477 /* ViewController.swift */,
+				D59277121BCC26EC00DB8477 /* Main.storyboard */,
+				D59277151BCC26EC00DB8477 /* Assets.xcassets */,
+				D59277171BCC26EC00DB8477 /* LaunchScreen.storyboard */,
+				D592771A1BCC26EC00DB8477 /* Info.plist */,
+			);
+			path = "Attack of the Constants and Variables";
+			sourceTree = "<group>";
+		};
+		D59277221BCC26EC00DB8477 /* Attack of the Constants and VariablesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59277231BCC26EC00DB8477 /* Attack_of_the_Constants_and_VariablesTests.swift */,
+				D59277251BCC26EC00DB8477 /* Info.plist */,
+			);
+			path = "Attack of the Constants and VariablesTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D592770A1BCC26EC00DB8477 /* Attack of the Constants and Variables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59277281BCC26EC00DB8477 /* Build configuration list for PBXNativeTarget "Attack of the Constants and Variables" */;
+			buildPhases = (
+				D59277071BCC26EC00DB8477 /* Sources */,
+				D59277081BCC26EC00DB8477 /* Frameworks */,
+				D59277091BCC26EC00DB8477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attack of the Constants and Variables";
+			productName = "Attack of the Constants and Variables";
+			productReference = D592770B1BCC26EC00DB8477 /* Attack of the Constants and Variables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D592771E1BCC26EC00DB8477 /* Attack of the Constants and VariablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D592772B1BCC26EC00DB8477 /* Build configuration list for PBXNativeTarget "Attack of the Constants and VariablesTests" */;
+			buildPhases = (
+				D592771B1BCC26EC00DB8477 /* Sources */,
+				D592771C1BCC26EC00DB8477 /* Frameworks */,
+				D592771D1BCC26EC00DB8477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59277211BCC26EC00DB8477 /* PBXTargetDependency */,
+			);
+			name = "Attack of the Constants and VariablesTests";
+			productName = "Attack of the Constants and VariablesTests";
+			productReference = D592771F1BCC26EC00DB8477 /* Attack of the Constants and VariablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59277031BCC26EC00DB8477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Angela Don";
+				TargetAttributes = {
+					D592770A1BCC26EC00DB8477 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D592771E1BCC26EC00DB8477 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D592770A1BCC26EC00DB8477;
+					};
+				};
+			};
+			buildConfigurationList = D59277061BCC26EC00DB8477 /* Build configuration list for PBXProject "Attack of the Constants and Variables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59277021BCC26EC00DB8477;
+			productRefGroup = D592770C1BCC26EC00DB8477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D592770A1BCC26EC00DB8477 /* Attack of the Constants and Variables */,
+				D592771E1BCC26EC00DB8477 /* Attack of the Constants and VariablesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59277091BCC26EC00DB8477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59277191BCC26EC00DB8477 /* LaunchScreen.storyboard in Resources */,
+				D59277161BCC26EC00DB8477 /* Assets.xcassets in Resources */,
+				D59277141BCC26EC00DB8477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D592771D1BCC26EC00DB8477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59277071BCC26EC00DB8477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59277111BCC26EC00DB8477 /* ViewController.swift in Sources */,
+				D592770F1BCC26EC00DB8477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D592771B1BCC26EC00DB8477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59277241BCC26EC00DB8477 /* Attack_of_the_Constants_and_VariablesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59277211BCC26EC00DB8477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D592770A1BCC26EC00DB8477 /* Attack of the Constants and Variables */;
+			targetProxy = D59277201BCC26EC00DB8477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59277121BCC26EC00DB8477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59277131BCC26EC00DB8477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59277171BCC26EC00DB8477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59277181BCC26EC00DB8477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59277261BCC26EC00DB8477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D59277271BCC26EC00DB8477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59277291BCC26EC00DB8477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Attack of the Constants and Variables/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.angeladon.Attack-of-the-Constants-and-Variables";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D592772A1BCC26EC00DB8477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Attack of the Constants and Variables/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.angeladon.Attack-of-the-Constants-and-Variables";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D592772C1BCC26EC00DB8477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Attack of the Constants and VariablesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.angeladon.Attack-of-the-Constants-and-VariablesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attack of the Constants and Variables.app/Attack of the Constants and Variables";
+			};
+			name = Debug;
+		};
+		D592772D1BCC26EC00DB8477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Attack of the Constants and VariablesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.angeladon.Attack-of-the-Constants-and-VariablesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attack of the Constants and Variables.app/Attack of the Constants and Variables";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59277061BCC26EC00DB8477 /* Build configuration list for PBXProject "Attack of the Constants and Variables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59277261BCC26EC00DB8477 /* Debug */,
+				D59277271BCC26EC00DB8477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59277281BCC26EC00DB8477 /* Build configuration list for PBXNativeTarget "Attack of the Constants and Variables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59277291BCC26EC00DB8477 /* Debug */,
+				D592772A1BCC26EC00DB8477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D592772B1BCC26EC00DB8477 /* Build configuration list for PBXNativeTarget "Attack of the Constants and VariablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D592772C1BCC26EC00DB8477 /* Debug */,
+				D592772D1BCC26EC00DB8477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59277031BCC26EC00DB8477 /* Project object */;
+}
